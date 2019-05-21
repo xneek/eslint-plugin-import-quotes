@@ -28,7 +28,7 @@ Add `import-quotes` to the plugins section of your `.eslintrc` configuration fil
         "import-quotes"
     ],
 	"rules": {
-		"import-quotes/import-quotes": ["single"] // or double
+		"import-quotes/import-quotes": [1, "single"] // or double
 	},
 }
 ```
